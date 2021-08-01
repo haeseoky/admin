@@ -36,5 +36,6 @@ jobs:
         run: ls -alt
 
       - name: Build with Gradle
-        run: ./gradlew build
-        shell: bash
+        run: |
+          ./gradlew --version
+          ./gradlew build # 빌드
