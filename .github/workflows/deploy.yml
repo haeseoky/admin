@@ -47,4 +47,4 @@ jobs:
         run: |
           aws s3 cp \
           --region ap-northeast-2 \
-          ./build/libs/*.jar s3://arn:aws:s3:::haeseokybucket
+          ./build/libs/*.jar s3://haeseoky-s3-mqgr8s1hqzn14cqyww8fjzdz5hbhqapn2a-s3alias
